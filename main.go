@@ -1,5 +1,6 @@
 package main
 
+<<<<<<< HEAD
 import (
 	"api/src/config"
 	"api/src/router"
@@ -17,3 +18,10 @@ func main() {
 
 	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%d", config.Port), r))
 }
+=======
+import "fmt"
+
+func main() {
+	fmt.Println("API running!")
+}
+>>>>>>> origin
